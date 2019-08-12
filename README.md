@@ -13,6 +13,10 @@ $ pip3 install --user v4docker
 
 ## usage
 
+```bash
+$ v4docker
+```
+
 key `up` and `down` to move cursor.
 
 key `d` to remove image.
