@@ -4,7 +4,7 @@ Simple Terminal UI tool to manage docker images.
 
 ## install
 
-python 3 required, pyth
+python/pip 3.6+ required
 
 ```bash
 $ pip3 install --user v4docker
@@ -22,5 +22,5 @@ key `tab` switch to quit button, press `enter` to quit.
 
 ## features TODO
 
-[] sort images by repository
-[] show image detail/history
+- [] sort images by repository
+- [] show image detail/history
