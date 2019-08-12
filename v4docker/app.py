@@ -134,7 +134,3 @@ class ImageObj:
 
     def __repr__(self):
         return f'{self.short_id}    {self.base_url}'
-
-
-if __name__ == '__main__':
-    App().run()

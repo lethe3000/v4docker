@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="v4docker",
-    version="0.0.1",
+    version="0.1.1",
     author="lethe3000",
     author_email="lethe30003000@gmail.com",
     description="Simple TUI to manage docker images",
@@ -20,5 +20,5 @@ setuptools.setup(
     ],
     install_requires=['docker==4.0.2', 'picotui==1.0.1'],
     python_requires='>=3.6',
-    scripts=['src/v4docker'],
+    scripts=['v4docker/bin/v4docker'],
 )
