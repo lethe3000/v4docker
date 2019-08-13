@@ -17,12 +17,19 @@ $ pip3 install --user v4docker
 $ v4docker
 ```
 
+if `v4docker` is not in your $PATH, you may use command to find out where is your python packages.
+
+```bash
+$ python3 -m site
+
+sys.path = [...]
+```
+
 key `up` and `down` to move cursor.
 
 key `d` to remove image.
 
 key `tab` switch to quit button, press `enter` to quit.
-
 
 ## features TODO
 
